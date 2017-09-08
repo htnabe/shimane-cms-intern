@@ -1,0 +1,130 @@
+[変更後CMS] のみに存在: .bundle
+diff -cr '--exclude=.git' '--exclude=tmp' '--exclude=bundle' tmp/pref-shimane-cms/pref-shimane-cms/.gitignore [変更後CMS].gitignore
+*** tmp/pref-shimane-cms/pref-shimane-cms/.gitignore	2017-09-08 14:25:28.642703485 +0900
+--- [変更後CMS].gitignore	2017-09-07 15:09:38.166346084 +0900
+***************
+*** 17,23 ****
+  
+  # Ignore files differ in individuals
+  /config/database.yml
+! /Gemfile.lock
+  /vendor/engines/*/Gemfile.lock
+  
+  # Ignore rails_config local files
+--- 17,23 ----
+  
+  # Ignore files differ in individuals
+  /config/database.yml
+! #/Gemfile.lock
+  /vendor/engines/*/Gemfile.lock
+  
+  # Ignore rails_config local files
+***************
+*** 26,32 ****
+  /config/environments/*.local.yml
+  
+  # Ignore installed migrations
+! /db/migrate/*.*.rb
+  
+  # Ignore public. directory
+  /public.
+--- 26,32 ----
+  /config/environments/*.local.yml
+  
+  # Ignore installed migrations
+! #/db/migrate/*.*.rb
+  
+  # Ignore public. directory
+  /public.
+diff -cr '--exclude=.git' '--exclude=tmp' '--exclude=bundle' tmp/pref-shimane-cms/pref-shimane-cms/.ruby-version [変更後CMS].ruby-version
+*** tmp/pref-shimane-cms/pref-shimane-cms/.ruby-version	2017-09-08 14:25:28.642703485 +0900
+--- [変更後CMS].ruby-version	2017-09-06 22:56:31.218164387 +0900
+***************
+*** 1 ****
+! ruby-2.1.0
+--- 1 ----
+! 2.3.4
+diff -cr '--exclude=.git' '--exclude=tmp' '--exclude=bundle' tmp/pref-shimane-cms/pref-shimane-cms/Gemfile [変更後CMS]Gemfile
+*** tmp/pref-shimane-cms/pref-shimane-cms/Gemfile	2017-09-08 14:25:28.642703485 +0900
+--- [変更後CMS]Gemfile	2017-09-07 14:48:04.203211187 +0900
+***************
+*** 1,4 ****
+--- 1,5 ----
+  source 'https://rubygems.org'
++ ruby '2.3.4'
+  
+  # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+  gem 'rails', '4.0.2'
+***************
+*** 49,56 ****
+  gem 'mail-iso-2022-jp', '2.0.2'
+  gem 'iconv', '1.0.4'
+  gem 'jpmobile', '4.0.0'
+! gem 'activerecord-session_store', '0.1.0', github: 'rails/activerecord-session_store'
+! gem 'rmagick', '2.13.2'
+  gem 'activerecord-import', '0.5.0'
+  gem 'paperclip', '3.5.2'
+  
+--- 50,57 ----
+  gem 'mail-iso-2022-jp', '2.0.2'
+  gem 'iconv', '1.0.4'
+  gem 'jpmobile', '4.0.0'
+! gem 'activerecord-session_store', '0.1.0'#, github: 'rails/activerecord-session_store'
+! gem 'rmagick'#, '2.13.2'
+  gem 'activerecord-import', '0.5.0'
+  gem 'paperclip', '3.5.2'
+  
+***************
+*** 59,65 ****
+  gem 'less-rails', '2.4.2'
+  gem 'twitter-bootstrap-rails', '2.2.8'
+  gem 'ckeditor', '4.0.8'
+! gem 'prototype-rails', '4.0.0', git: 'git://github.com/rails/prototype-rails'
+  gem 'prototype_legacy_helper', '0.0.0', git: 'git://github.com/rails/prototype_legacy_helper.git'
+  
+  # for development
+--- 60,66 ----
+  gem 'less-rails', '2.4.2'
+  gem 'twitter-bootstrap-rails', '2.2.8'
+  gem 'ckeditor', '4.0.8'
+! gem 'prototype-rails', '4.0.0'#, git: 'git://github.com/rails/prototype-rails'
+  gem 'prototype_legacy_helper', '0.0.0', git: 'git://github.com/rails/prototype_legacy_helper.git'
+  
+  # for development
+***************
+*** 90,92 ****
+--- 91,95 ----
+  gem 'lost_link_check', path: 'vendor/engines/lost_link_check'
+  gem 'section_info_configure', path: 'vendor/engines/section_info_configure'
+  gem 'site_design', path: 'vendor/engines/site_design'
++ 
++ gem 'rake', '10.5.0'
+[変更後CMS] のみに存在: Gemfile.lock
+[変更後CMS]config のみに存在: database.yml
+[変更後CMS] のみに存在: counter
+[変更後CMS] のみに存在: heroku.log
+[変更後CMS]log のみに存在: development.log
+[変更後CMS]log のみに存在: production.log
+[変更後CMS] のみに存在: server.log
+diff -cr '--exclude=.git' '--exclude=tmp' '--exclude=bundle' tmp/pref-shimane-cms/pref-shimane-cms/spec/fixtures/page_contents.yml [変更後CMS]spec/fixtures/page_contents.yml
+*** tmp/pref-shimane-cms/pref-shimane-cms/spec/fixtures/page_contents.yml	2017-09-08 14:25:29.317699487 +0900
+--- [変更後CMS]spec/fixtures/page_contents.yml	2017-09-07 15:23:28.576709955 +0900
+***************
+*** 1,8 ****
+  page_top_content:
+!   id             : 1
+!   page_id        : 1
+!   content        : "<div class=\"susanoo-editable-field\"><h1>Susanoo トップページ</h1></div>"
+!   last_modified  : 2014-06-30 00:00:00
+!   admission      : 3
+!   latest         : true
+    format_version : 1
+--- 1,8 ----
+  page_top_content:
+!   id : 1
+!   page_id : 1
+!   content : "<div class=\"susanoo-editable-field\"><h1>Susanoo トップページ</h1></div>"
+!   last_modified : 2014-06-30 00:00:00
+!   admission : 3
+!   latest : true
+    format_version : 1
