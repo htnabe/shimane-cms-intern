@@ -1,0 +1,123 @@
+[新CMS] のみに存在: .bundle
+
+[新CMS] のみに存在: .git
+
+ファイル 元の[CMS_ROOT]/.gitignore と [新CMS]/.gitignore は異なります
+
+[新CMS] のみに存在: .public
+
+ファイル 元の[CMS_ROOT]/.ruby-version と [新CMS]/.ruby-version は異なります
+
+ファイル 元の[CMS_ROOT]/Gemfile と [新CMS]/Gemfile は異なります
+
+[新CMS]/config のみに存在: database
+
+[新CMS]/config のみに存在: database.yml
+
+ファイル 元の[CMS_ROOT]/config/environments/production.rb と [新CMS]/config/environments/production.rb は異なります
+
+[新CMS]/config のみに存在: settings.local.yml
+
+[新CMS]/db/migrate のみに存在: 20170830015432_create_advertisements.advertisement_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015433_create_advertisement_lists.advertisement_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015434_add_and_rename_columns_for_attachment_in_advertisements.advertisement_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015435_add_topagesbanner_column.advertisement_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015436_add_column_blog_enabled_to_genres.blog_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015437_remove_blog_enabled_add_blog_folder_type_in_genres.blog_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015438_add_column_blog_date_to_pages.blog_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015439_create_consult_management_consults.consult_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015440_create_consult_management_consult_categories.consult_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015441_create_consult_management_consult_category_members.consult_management.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015442_add_event_folder_type_in_genres.event_calendar.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015443_add_event_date_in_pages.event_calendar.rb
+
+[新CMS]/db/migrate のみに存在: 20170830015444_add_column_edit_required_to_page_contents.import_page.rb
+
+ファイル 元の[CMS_ROOT]/db/schema.rb と [新CMS]/db/schema.rb は異なります
+
+[新CMS]/log のみに存在: test.log
+
+[新CMS]/public のみに存在: assets
+
+[新CMS]/public のみに存在: css
+
+[新CMS]/public のみに存在: images
+
+[新CMS]/public のみに存在: javascripts
+
+[新CMS]/public のみに存在: stylesheets
+
+ファイル 元の[CMS_ROOT]/spec/fixtures/page_contents.yml と [新CMS]/spec/fixtures/page_contents.yml は異なります
+
+[新CMS]/vendor のみに存在: bundle
+
+[新CMS]/vendor/engines/site_design/app/assets/images/susanoo/visitors のみに存在: about
+
+[新CMS]/vendor/engines/site_design/app/assets/images/susanoo/visitors のみに存在: header-bg.jpg
+
+[新CMS]/vendor/engines/site_design/app/assets/images/susanoo/visitors のみに存在: logos
+
+[新CMS]/vendor/engines/site_design/app/assets/images/susanoo/visitors のみに存在: map-image.png
+
+[新CMS]/vendor/engines/site_design/app/assets/images/susanoo/visitors のみに存在: portfolio
+
+[新CMS]/vendor/engines/site_design/app/assets/images/susanoo/visitors のみに存在: team
+
+[新CMS]/vendor/engines/site_design/app/assets/javascripts/susanoo/visitors のみに存在: agency.js
+
+[新CMS]/vendor/engines/site_design/app/assets/javascripts/susanoo/visitors のみに存在: agency.min.js
+
+ファイル 元の[CMS_ROOT]/vendor/engines/site_design/app/assets/javascripts/susanoo/visitors/bootstrap.js と [新CMS]/vendor/engines/site_design/app/assets/javascripts/susanoo/visitors/bootstrap.js は異なります
+
+[新CMS]/vendor/engines/site_design/app/assets/javascripts/susanoo/visitors のみに存在: bootstrap.min.js
+
+元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: advertisement_management
+
+[新CMS]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: agency.css
+
+[新CMS]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: agency.min.css
+
+元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: banner.css
+
+元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: blog_management
+
+[新CMS]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: bootstrap-grid.css
+
+[新CMS]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: bootstrap-grid.min.css
+
+[新CMS]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: bootstrap-reboot.css
+
+[新CMS]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: bootstrap-reboot.min.css
+
+ファイル 元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors/bootstrap.css と [新CMS]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors/bootstrap.css は異なります
+
+[新CMS]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: bootstrap.min.css
+
+元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: doc.css
+
+元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: fontawesome-webfont.eot
+
+元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: fontawesome-webfont.svg
+
+元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: fontawesome-webfont.ttf
+
+元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: fontawesome-webfont.woff
+
+元の[CMS_ROOT]/vendor/engines/site_design/app/assets/stylesheets/susanoo/visitors のみに存在: mobile.css
+
+ファイル 元の[CMS_ROOT]/vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb と [新CMS]/vendor/engines/site_design/app/views/susanoo/visitors/shared/_header.html.erb は異なります
+
+ファイル 元の[CMS_ROOT]/vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb と [新CMS]/vendor/engines/site_design/app/views/susanoo/visitors/shared/_header_sub.html.erb は異なります
+
+ファイル 元の[CMS_ROOT]/vendor/engines/site_design/config/locales/ja.visitors.yml と [新CMS]/vendor/engines/site_design/config/locales/ja.visitors.yml は異なります
